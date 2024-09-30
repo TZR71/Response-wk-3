@@ -94,19 +94,23 @@ p {
 }
 .btn {
   box-shadow: var(--box-shadow);
+  margin:0 auto;
+  display: block;
   
 }
 .contact {
   margin: 30px;
 }
-@media (max-width:576px){
-  h1{
+
+@media (max-width: 576px) {
+  h1 {
     text-align: center;
     font-size: 48px;
   }
-  .btn{
-  width:100%;
-  margin-bottom: 15px;
+  .btn {    
+    margin-bottom: 15px;
   }
-
+  .col-sm-4 {
+    margin-bottom: 20px;
+  }
 }
